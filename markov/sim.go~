@@ -1,0 +1,23 @@
+package main
+
+import (
+	"fmt"
+
+	"math/rand"
+
+	"container/list"
+)
+
+func s (int numTrains, int safetyTime, int rideTime, int minTransTime, int avgTransTime){
+	avg : = avgTransTime - minTransTime
+	t := 0
+	dep := minTransTime + int(ExpFloat64() * avg)
+	trainPres := numTrains > 1
+	fmt.println(dep)
+	for t < 43200{
+		if numTrains == 1{
+			dep = dep + rideTime + minTransTime + int(ExpFloat64() * avg)
+			t = dep
+			continue
+		
+	

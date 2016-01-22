@@ -4,31 +4,36 @@ import (
 	"fmt"
 
 	"math/rand"
-
-	"container/list"
 )
 
-func s (int numTrains, int safetyTime, int rideTime, int minTransTime, int avgTransTime){
-	var trains[numTrains] int
+func s (numTrains int, safetyTime int, rideTime int, minTransTime int, avgTransTime int){
+	cc:=1
+	trains := make([]int,numTrains)
 	c := 0
-	avg : = avgTransTime - minTransTime
+	avg := float64(avgTransTime - minTransTime)
 	t := 0
-	dep := minTransTime + int(ExpFloat64() * avg)
+	dep := minTransTime + int(rand.ExpFloat64() * avg)
 	t = dep
 	trains[c] = dep + rideTime
 	c = (c + 1) % numTrains
-	fmt.println(dep)
+	fmt.Println(dep)
 	for t < 43200 { //in seconds
 		if trains[c] > t {
 			t = trains[c]
 		}
-		t += minTransTime + int(ExpFloat64() * avg)
+		t += minTransTime + int(rand.ExpFloat64() * avg)
 		if t < dep + safetyTime{
-			t = dep + safteyTime
+			t = dep + safetyTime
 		}
 		dep = t
-		fmt.println(dep)
+		fmt.Println(dep)
+		cc += 1
 	}
+	return(cc)
+}
+
+func main(){
+	fmt.Println(s(3,30,50,20, 27))
 }
 		
 	

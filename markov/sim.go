@@ -6,7 +6,7 @@ import (
 	"math/rand"
 )
 
-func s (numTrains int, safetyTime int, rideTime int, minTransTime int, avgTransTime int){
+func s (numTrains int, safetyTime int, rideTime int, minTransTime int, avgTransTime int) int{
 	cc:=1
 	trains := make([]int,numTrains)
 	c := 0
@@ -29,11 +29,12 @@ func s (numTrains int, safetyTime int, rideTime int, minTransTime int, avgTransT
 		fmt.Println(dep)
 		cc += 1
 	}
-	return(cc)
+	return cc
 }
 
 func main(){
-	fmt.Println(s(3,30,50,20, 27))
+	a := s(3,30,50,20, 27)
+	fmt.Println(a)
 }
 		
 	

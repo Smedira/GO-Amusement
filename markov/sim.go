@@ -5,7 +5,10 @@ import (
 
 	"math/rand"
 
-	"encoding/json"
+
+	"github.com/zond/god/client"
+  	"github.com/zond/god/common"
+  	"github.com/zond/god/murmur"
 )
 
 func s (numTrains int, safetyTime int, rideTime int, minTransTime int, avgTransTime int) []int{
@@ -36,11 +39,12 @@ func s (numTrains int, safetyTime int, rideTime int, minTransTime int, avgTransT
 }
 
 func main(){
-	a,_ := json.Marshal(s(3,30,50,20, 27))
+	a := (s(3,30,50,20, 27))
 	fmt.Println(a)
-	var dat []int
-	json.Unmarshal(a, &dat)
-	fmt.Println(dat)
+	fmt.Println(a)
+	conn := client.MustConn("localhost:9191")
+	bytes := common.MustJSONEncode(a)
+	conn.Put(murmur.HashString("hi"), bytes)
 }
 		
 	

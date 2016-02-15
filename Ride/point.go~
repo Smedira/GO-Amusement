@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+type User struct {
+  Email    string
+  Password string
+  Name     string
+}
+
+func main() {
+
+  u := User{
+    Email:    "mail@domain.tld",
+    Password: "so secret",
+    Name:     "john doe",
+  }
+  u2 := u
+  u3 := u2
+  u2.Password = "so"
+  fmt.Println(u,u2,u3)
+}

@@ -11,6 +11,6 @@ func main(){
   
   //initialize values
 
-  simulation.start()
+  simulation.Start()
 
 }

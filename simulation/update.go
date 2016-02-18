@@ -8,7 +8,7 @@ import {
 
 }
 
-func update(k key, t int){
+func Update(k key, t int){
   r := Ride.get(k)
   if r.nextRideTime == t {
     a = Appointment.get(r.appointments[r.curAppointment])

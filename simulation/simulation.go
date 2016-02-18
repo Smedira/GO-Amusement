@@ -1,6 +1,6 @@
 package simulation
 
-func start(){
+func Start(){
 
   //determine preorders
 

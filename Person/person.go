@@ -2,7 +2,7 @@ package Person
 
 
 type person struct {
-	path []int
+  path []int
   steps []int
   curpos []int
   appointments []key

@@ -2,6 +2,7 @@ package Ride
  
 import(
   //"GO-Amusement/Appointment"
+  "GO-Amusement/Person"
 )
  
 type ride struct{
@@ -20,9 +21,9 @@ type ride struct{
 
 }
 
-func (r *ride) pop(int count) []key{
+func (r *ride) pop(int count) []Person.key{
 
-  p
+  p = make([]Person.person,0)
 
   for i := 0; i < len(r.partySize); i++{
     if r.partySize[i] <= count{

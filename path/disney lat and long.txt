@@ -1,0 +1,122 @@
+Main St
+
+entrance 				: 28.416294, -81.581197
+maian st train stop 	 		: 28.416785, -81.581410
+Main St Confectionery 	
+Emporium 		
+Plaza Ice Cream Parlor	
+Casey's Corner
+The Crystal Palace		 
+
+Around Castle
+
+Castle Stage				: 28.419185, -81.581219
+Cinderella Castle			: 28.421278, -81.579612 
+Lunching Pad
+Sleepy Hollow food
+Main street Bakery
+Fireworks Dessert Party
+Cinderella's Royal Table
+Auntie Gravity shop
+Tommorowland terrace food
+Tortuga Tavern
+Aloha Isle
+
+
+Fantasy Land
+
+Entrance to Fantasyland	from caSTLE	: 28.419693, -81.581168
+Prince Charming Regal Carrousel		: 28.420125, -81.581172 
+Peter Pan's Flight			: 28.420230, -81.581870
+The Hall of Presidents			: 28.419513, -81.582275
+Haunted Mansion				: 28.420869, -81.582877		
+It's A Small World			: 28.420873, -81.582084
+The Many Adventures of Winnie the Pooh 	:28.420096, -81.580342
+Hundred Acre Woods
+Enchanted Tales with Belle		: 28.421173, -81.581021
+Be our guest food
+Gaston's Tavern
+Under the SeaJourney of The Little Mermaid :28.421278, -81.579612 
+Ariel's Grotto
+Pete's Silly Sideshow 			: 28.421322, -81.579024
+Big Top Souvenirs  			: 28.421013, -81.579256
+Fantasyland Station			: 28.421136, -81.578408 
+The Barnstormer				: 28.420646, -81.578393 
+Dumbo The Flying Elephant  		: 28.420310, -81.578965
+
+
+Tommow Land
+
+Tomorrowland Speedway			: 28.419393, -81.579346
+Cosmic Ray's Starlight Cafe
+Mickey's Star Traders
+Cool Ship food
+Auntie Gravity's Galactic Goodies
+Stitch's Great Escape!			: 28.418601, -81.579673
+Space Mountain				: 28.418798, -81.578164
+Tomorrowland Transit Authority		: 28.418388, -81.579172
+Merchant of Venus
+Monsters Inc Laugh Floor		: 28.418399, -81.579749
+Buzz Lightyear's Space Ranger Spin	: 28.418239, -81.579499
+Tomorrowland Terrace Fireworks Dessert Party
+Tomorrowland Terrace Restaurant
+
+
+Frontier Land
+
+Tom Sawyer Island			: 28.419577, -81.583547
+Big Thunder Mountain Railroad		: 28.420320, -81.584746
+Frontierland Train Station		: 28.419714, -81.585087
+Splash Mountain				: 28.419147, -81.584965
+Briar Patch food
+
+Adventure Land
+
+Country Bear Jamboree			: 28.418735, -81.583817
+Pecos Bill Tall Tale Inn & Cafe
+Prairie Outpost and Supply
+Walt Disney's Enchanted Tiki Room	: 28.418398, -81.583970
+Tortuga Tavern
+The Magic Carpets of Aladdin		: 28.418453, -81.583553
+Toluca Turkey Leg Co
+Jungle Cruise				: 28.417999, -81.583503
+Pirates of the Caribbean		: 28.418018, -81.584078
+Plaza del Sol Caribe Bazaar
+Swiss Family Treehouse			: 28.418032, -81.583092
+
+ 
+connect tomorrow land and fantasy land m,16	: 28.419896, -81.579901
+connect frontier land adventure land		: 28.418981, -81.584599
+connection fantasy land and frontier land	: 28.419086, -81.582946
+
+Marks on map
+
+x1	: 28.416715, -81.581217
+x2	: 28.418143, -81.581202
+x3	: 28.418676, -81.581540
+x4	: 28.418897, -81.581503
+X5	: 28.419025, -81.581196
+x6	: 28.418886, -81.580897
+x7	: 28.418684, -81.580866
+x8	: 28.418542, -81.582001
+x9	: 28.419149, -81.581993
+x10	: 28.419898, -81.579873
+x11	: 28.418476, -81.579452
+x12	: 28.418818, -81.579209
+x13	: 28.419308, -81.577859
+x14	: 28.420908, -81.578509
+x15	: 28.420831, -81.578882
+x16	: 28.420730, -81.579310
+x17	: 28.421210, -81.580319
+x18	: 28.420478, -81.580895
+x19	: 28.419981, -81.581198
+x20	: 28.420263, -81.581474
+x21	: 28.420098, -81.582779
+x22	: 28.419418, -81.582603
+x23	: 28.418988, -81.584598
+x24	: 28.418130, -81.583702
+x25	: 28.418539, -81.583249
+
+
+
+

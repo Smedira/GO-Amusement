@@ -1,10 +1,17 @@
 package simulation
 
-func start(){
+import (
+  "fmt"
+  "GO-Amsuement/person"
+)
+
+func Start(){
 
   //determine preorders
+  fmt.Println("hi")
+  setupLoc()
 
-  time := 0
+}
 
   
 

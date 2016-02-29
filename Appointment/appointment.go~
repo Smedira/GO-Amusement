@@ -2,6 +2,7 @@ package appointment
 
 import (
   "GO-Amusement/ride"
+  "GO-Amusement/Path"
 )
 
 type appointment struct {
@@ -12,6 +13,13 @@ type appointment struct {
   rowWidth int
   numRows int
   positions []key
-  present []bool
+  present []bool //same len as positions
+  timeDistribution key
+  numUntil int
+  exit []
+  entrance []
+  open bool
+
+}
   
   

@@ -1,14 +1,14 @@
-package simulation
+/**package simulation
 
-import {
+import (
 
   "Go-Amusement/Ride"
   "Go-Amusement/Appointment"
   "GO-Amusement/Person"
 
-}
+)
 
-func update(k key, t int){
+func Update(k key, t int){
   r := Ride.get(k)
   if r.nextRideTime == t {
     a = Appointment.get(r.appointments[r.curAppointment])
@@ -38,10 +38,11 @@ func update(k key, t int){
       a.numUntil -= 1
       a.open = !(a.numUntil == 1)
       a.save()
+    }
       
     //Determine Broadcast
     r.save()
     
   }
-}
+}**/
     

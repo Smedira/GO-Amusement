@@ -1,12 +1,12 @@
-package simulation
+package simulation/**
 
-import {
+import (
 
   "Go-Amusement/Ride"
   "Go-Amusement/Appointment"
   "GO-Amusement/Person"
 
-}
+)
 
 func Update(k key, t int){
   r := Ride.get(k)
@@ -44,5 +44,5 @@ func Update(k key, t int){
     r.save()
     
   }
-}
+}**/
     

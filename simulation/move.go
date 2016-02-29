@@ -1,7 +1,19 @@
-package simulation
+package simulation/**
 
-import {
+import (
 	
-}
+)
 
 
+
+func (p *person) makeAppoint() {
+
+
+
+func iterate() { //per group
+  
+  broadcast
+
+  makeAppoint
+
+  move (makepath)**/

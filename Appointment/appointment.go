@@ -2,12 +2,13 @@ package appointment
 
 import (
   "GO-Amusement/ride"
+  "GO-Amusement/Path"
 )
 
 type appointment struct {
 
   ride []key
-  loc
+  loc Path.location
   time []int
   rowWidth int
   numRows int
